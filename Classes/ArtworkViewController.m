@@ -587,7 +587,7 @@ static UIImage *imageWithContentsOfFile(NSString *path)
 	
 	AppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
 	NSString *openCommand = [NSString stringWithFormat:@"/usr/bin/open \"%@\"", [appDelegate saveDirectory:nil]];
-	system([openCommand fileSystemRepresentation]);
+	//system([openCommand fileSystemRepresentation]);
 }
 
 // MARK: -
